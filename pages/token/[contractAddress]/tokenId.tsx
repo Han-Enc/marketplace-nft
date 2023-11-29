@@ -129,9 +129,9 @@ export default function TokenPage({ nft, contractMetadata }: Props) {
                     p={'8px'}
                     borderRadius={'4px'}
                   >
-                    <Text fontSize={'small'}>{value.trait_type}</Text>
+                    <Text fontSize={'small'}>{'value.trait_type'}</Text>
                     <Text fontSize={'small'} fontWeight={'bold'}>
-                      {value.value}
+                      {'value.value'}
                     </Text>
                   </Flex>
                 )
